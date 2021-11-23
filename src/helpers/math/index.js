@@ -11,12 +11,8 @@ function sayHello(text) {
 console.log(sayHello('Mark'));
 
 
-let array = ['dkdjhc','dchbd','aaaa','aaaa']
+let array = ['i love js','hello world','i love react']
 
-
-function filterStr () {
-  
-}
 
 let result = array.map(function(arr) {
   return arr.length <= 4
