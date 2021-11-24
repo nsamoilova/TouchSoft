@@ -14,13 +14,15 @@ console.log(sayHello('Mark'));
 let array = ['i love js','hello world','i love react']
 
 
-let result = array.map(function(arr) {
-  return arr.length <= 4
-});
+function result(arr){
+  for(i = 0; i < arr.length; i++){
+    if(arr[i].length <= 9){
+      console.log(arr[i])
+    }
+  }
+}
 
-//  не понятно
-
-console.log(result);
+result(array)
 
 
 

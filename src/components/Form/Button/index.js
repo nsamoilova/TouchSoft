@@ -6,6 +6,7 @@ class Button extends React.Component{
         console.log('render')
         return (
             <button 
+                {...this.props}
                 onClick={this.props.onClick}
                 className={styles.button}
             >
